@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <title>Proyecto</title>
+</head>
+<body>
+    <header class="header" id="inicio">
+        <img src="img/menu.svg" class="menu">
+        <nav class="menu-navegacion">
+            <a href="#inicio">Inicio</a>
+            <a href="#registro">Registro</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#contacto">Contacto</a>
+            <a href="#idioma">Idioma</a>
+        </nav>
+        <div class="contenedor head">
+            <h1 class="titulo">Del Valle Motors</h1>
+            <p class="copy"> Bienvenido contamos con venta de vehiculos y repuestos de todas las marcas, manejamos reparaciones y cotización de toda marca </p>
+        </div>
+    </header>
+    <main>
+        <section class="form-information" id="registro">
+            <div class="form-information-childs">
+                <h2>Crear una cuenta con</h2>
+                <div class="icons">
+                    <i class='bx bxl-google' ></i>
+                    <i class='bx bxl-facebook-circle' ></i>
+                    <i class='bx bxl-gmail'></i>
+                </div>
+                <p>Registrate</p>
+                <form class="form">
+                    <label>
+                        <i class='bx bxs-user-circle' ></i>
+                        <input type="text" placeholder="Nombres Completos">
+                    </label>
+                    <label>
+                        <i class='bx bxs-envelope' ></i>
+                        <input type="email" placeholder="Correo Eletrónico">
+                    </label>
+                    <label>
+                        <i class='bx bxs-lock-alt' ></i>
+                        <input type="password" placeholder="Contraseña">
+                    </label>
+                    <input type="submit" value="Registrarse">
+                </form>
+            </div>
+        </section>
+        <section class="contendor" id="servicios">
+            <h2 class="subtitulo"> Nuestro servicio </h2>
+            <div class="contenedor-servicio">
+                <img src="img/imagedinamic.png" alt="" class="src">
+                <div class="checklist-servicio">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span>Diseño web</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, maiores officiis sint nobis dolorem placeat quibusdam architecto quidem sequi laboriosam!</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span>Diseño web</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, maiores officiis sint nobis dolorem placeat quibusdam architecto quidem sequi laboriosam!</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3</span>Diseño web</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, maiores officiis sint nobis dolorem placeat quibusdam architecto quidem sequi laboriosam!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery" id="portafolio">
+            <div class="contenedor">
+                <h2 class="subtitulo">Galeria</h2>
+                <div class="contenedor-galeria">
+                    <img src="img/carro1.jpg" alt="" class="img-galeria">
+                    <img src="img/carro2.jpg" alt="" class="img-galeria">
+                    <img src="img/carro3.jpg" alt="" class="img-galeria">
+                    <img src="img/reparación.jpg" alt="" class="img-galeria">
+                    <img src="img/repuestos.jpg" alt="" class="img-galeria">
+                    <img src="img/VariosCarros.jpg" alt="" class="img-galeria">
+                </div>    
+            </div>
+        </section>
+        <section class="imagen-light">
+            <img src="img/x.svg" alt="" class="close">
+            <img src="img/VariosCarros.jpg" alt="" class="agregar-imagen">
+        </section>
+        <section class="contenedor" id="expertos">
+            <h2 class="subtitulo">Expertos en:</h2>
+            <section class="experts">
+                <div class="cont-expert">
+                    <img src="img/asesoramiento.png" alt="">
+                    <h3 class="n-expert">Asesoramiento</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="img/security.png" alt="">
+                    <h3 class="n-expert">seguridad</h3>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer id="contacto">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h2 class="brand">CUV</h2>
+                <p>Somos expertos en carros</p>
+            </div>
+            <div class="social-media">
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-facebook-square' ></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-instagram' ></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-gmail' ></i>
+                </a>
+            </div>
+        </div>
+        <div class="line"></div>
+        <p>David Camilo Ordoñez Marin - david.camilo.ordonez@correounivalle.edu.co</p>
+    </footer>
+
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
+
+</body>
+</html>
